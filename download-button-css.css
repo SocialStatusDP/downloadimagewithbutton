@@ -1,0 +1,48 @@
+@media only screen and (max-width: 400px) {
+}
+.wp-block-image {
+    margin-top: 20px;
+    margin-bottom: 9px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 26%);
+    border-radius: 9px;
+}
+.wp-block-image img {
+    max-width: 100%;
+    width:100%;
+}
+.wp-block-image .download-link {
+    margin: 9px 0;
+    text-align: center;
+    padding: 20px 0;
+}
+.wp-block-image .download-link a {
+    padding: 3px 15px 1px 15px;
+    background: linear-gradient(90deg , rgb( 2, 163, 73 ) 27%, rgb( 2, 163, 73 ) 100%);
+    font-size: 20px;
+    border-radius: 9px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.wp-block-image .download-link a:hover,.download-link a:focus  {
+    padding: 3px 15px 1px 15px;
+    background: linear-gradient(90deg , rgb( 0, 186, 112 ) 27%, rgb(0, 186, 112) 100%) !important;
+    font-size: 20px;
+    border-radius: 9px;
+    color: #fff;
+    opacity: 0.75;
+    transition: .3s;
+    text-decoration: none !important;
+}
+
+.wp-block-image figcaption {
+    font-size: 16px;
+    background: rgb(0, 186, 112);
+    margin-top: 0 !important;
+    margin-bottom: 1em;
+    color: #fff !important;
+    text-align: center;
+} 
